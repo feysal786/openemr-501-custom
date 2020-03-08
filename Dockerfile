@@ -7,17 +7,14 @@ RUN apk add --no-cache \
     apache2 apache2-ssl php7 php7-tokenizer php7-ctype php7-session php7-apache2 \
     php7-json php7-pdo php7-pdo_mysql php7-curl php7-ldap php7-openssl php7-iconv \
     php7-xml php7-xsl php7-gd php7-zip php7-soap php7-mbstring php7-zlib \
-    php7-mysqli php7-sockets php7-xmlreader mysql-client tar curl imagemagick-dev
-
-#   perl python openssl git libffi-dev py-pip python-dev build-base openssl-dev dcron
+    php7-mysqli php7-sockets php7-xmlreader mysql-client tar curl imagemagick-dev \
+    perl python openssl git libffi-dev py-pip python-dev build-base openssl-dev dcron
 
 
 WORKDIR /var/www/localhost/htdocs/
 
 COPY code/ /var/www/localhost/htdocs/
 
-#clone openemr
-#RUN git clone https://github.com/openemr/openemr.git --branch rel-501 --depth 1 \
 
 WORKDIR /var/www/localhost/htdocs
 
@@ -36,13 +33,14 @@ RUN rm -rf .git \
 #    && mkdir -p /etc/ssl/certs /etc/ssl/private \
 #    && apk del --no-cache git build-base libffi-dev python-dev
 
-VOLUME [ "/var/www/localhost/htdocs/openemr/sites", "/etc/letsencrypt/", "/etc/ssl" ]
+VOLUME [ "/var/www/localhost/htdocs/sites", "/etc/letsencrypt/", "/etc/ssl" ]
 
 #configure apache & php properly
 
 ENV APACHE_LOG_DIR=/var/log/apache2
 COPY configs/php.ini /etc/php7/php.ini
 COPY configs/openemr-apache.conf /etc/apache2/conf.d/
+COPY docker-entrypoint.sh  /docker-entrypoint.sh
 
 #add runner and auto_configure and prevent auto_configure from being run w/o being enabled
 
