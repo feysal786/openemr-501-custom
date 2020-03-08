@@ -1,0 +1,33 @@
+version: '3.1'
+services:
+  mysql:
+    restart: always
+    image: mariadb:10.2
+
+    command: ['mysqld','--character-set-server=utf8']
+
+    volumes:
+    - databasevolume:/var/lib/mysql
+    - ${PWD}/backups/demo.medicalpmr.com.sql:/docker-entrypoint-initdb.d/demo.medicalpmr.com.sql
+    # Note: SQL files found in /docker-entrypoint-initdb.d/ directory,
+    #       will be imported by default to the database specified by the MYSQL_DATABASE variable.
+
+    env_file:
+    - mysql.env
+
+  openemr:
+    restart: always
+    # use an image if you're not changing the build steps:
+    image: local/openemr:501
+    ports:
+    - 80:80
+    volumes:
+    - sitevolume:/var/www/localhost/htdocs/sites/:rw
+    env_file:
+    - openemr.env
+    depends_on:
+    - mysql
+
+volumes:
+  databasevolume: {}
+  sitevolume: {}
