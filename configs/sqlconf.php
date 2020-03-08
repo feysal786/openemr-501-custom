@@ -1,11 +1,11 @@
 <?php
 //  OpenEMR MySQL Config
 
-$host	= 'SQLHOST';
-$port	= 'SQLPORT';
-$login	= 'LOGIN';
-$pass	= 'PASSWORD';
-$dbase	= 'DBNAME';
+$host	= 'MYSQL_HOST';
+$port	= 'MYSQL_PORT';
+$login	= 'MYSQL_USER';
+$pass	= 'MYSQL_PASSWORD';
+$dbase	= 'MYSQL_DATABASE';
 
 //Added ability to disable
 //utf8 encoding - bm 05-2009
