@@ -1,4 +1,5 @@
-FROM alpine:3.7
+# FROM alpine:3.7
+FROM alpine:3.11
 
 #Install dependencies
 RUN apk --no-cache upgrade
@@ -10,38 +11,53 @@ RUN apk add --no-cache \
     python openssl git libffi-dev py-pip python-dev build-base openssl-dev dcron
 
 
-WORKDIR /var/www/localhost/htdocs/openemr
-COPY code/ /var/www/localhost/htdocs/openemr/
+WORKDIR /var/www/localhost/htdocs/
+
+COPY code/ /var/www/localhost/htdocs/
 
 #clone openemr
 #RUN git clone https://github.com/openemr/openemr.git --branch rel-501 --depth 1 \
 
 WORKDIR /var/www/localhost/htdocs
 
-RUN rm -rf openemr/.git \
-    && chmod 666 openemr/sites/default/sqlconf.php \
-    && chmod 666 openemr/interface/modules/zend_modules/config/application.config.php \
-    && chown -R apache openemr/ \
-    && mv openemr /var/www/localhost/htdocs/ \
-    && git clone https://github.com/letsencrypt/letsencrypt /opt/certbot \
-    && pip install --upgrade pip \
-    && pip install -e /opt/certbot/acme -e /opt/certbot \
-    && mkdir -p /etc/ssl/certs /etc/ssl/private \
-    && apk del --no-cache git build-base libffi-dev python-dev
+RUN rm -rf .git \
+    && chown -R apache:apache /var/www/localhost/htdocs
+
+# Following two lines are not needed, because the files are already owned by apache.
+#    && chmod 666 sites/default/sqlconf.php \
+#    && chmod 666 interface/modules/zend_modules/config/application.config.php \
+
+# Following are required for LetsEncrypt / SSL, etc. Not needed at the moment.
+
+#    && git clone https://github.com/letsencrypt/letsencrypt /opt/certbot \
+#    && pip install --upgrade pip \
+#    && pip install -e /opt/certbot/acme -e /opt/certbot \
+#    && mkdir -p /etc/ssl/certs /etc/ssl/private \
+#    && apk del --no-cache git build-base libffi-dev python-dev
 
 VOLUME [ "/var/www/localhost/htdocs/openemr/sites", "/etc/letsencrypt/", "/etc/ssl" ]
+
 #configure apache & php properly
+
 ENV APACHE_LOG_DIR=/var/log/apache2
-COPY php.ini /etc/php7/php.ini
-COPY openemr.conf /etc/apache2/conf.d/
+COPY configs/php.ini /etc/php7/php.ini
+COPY configs/openemr-apache.conf /etc/apache2/conf.d/
+
 #add runner and auto_configure and prevent auto_configure from being run w/o being enabled
+
 COPY run_openemr.sh autoconfig.sh auto_configure.php /var/www/localhost/htdocs/openemr/
 COPY utilities/unlock_admin.php utilities/unlock_admin.sh /root/
+
 RUN chmod 500 run_openemr.sh autoconfig.sh /root/unlock_admin.sh \
     && chmod 000 auto_configure.php /root/unlock_admin.php
 #fix issue with apache2 dying prematurely
+
 RUN mkdir -p /run/apache2
 #go
-CMD [ "./run_openemr.sh" ]
+# CMD [ "./run_openemr.sh" ]
+
+ENTRYPOINT ["/docker-entrypoint.sh"]
+
+CMD [ "/usr/sbin/httpd", "-D", "FOREGROUND"]
 
 EXPOSE 80 443
