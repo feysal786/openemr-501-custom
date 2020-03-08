@@ -1,0 +1,22 @@
+[26-Dec-2019 08:05:08 UTC] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/front_payment.php on line 18
+[26-Dec-2019 08:05:08 UTC] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/front_payment.php on line 18
+[26-Dec-2019 08:05:17 UTC] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/front_payment.php on line 18
+[26-Dec-2019 08:05:17 UTC] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/front_payment.php on line 18
+[26-Dec-2019 08:05:22 UTC] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/front_payment.php on line 18
+[26-Dec-2019 08:05:22 UTC] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/front_payment.php on line 18
+[26-Dec-2019 08:09:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getCopay() in /home3/hysterec/public_html/pmrtest/interface/patient_file/front_payment.php:1320
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/front_payment.php on line 1320
+[26-Dec-2019 08:10:18 UTC] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/sl_eob.inc.php): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/front_payment.php on line 21
+[26-Dec-2019 08:10:18 UTC] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/sl_eob.inc.php' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/front_payment.php on line 21
+[26-Dec-2019 08:12:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getCopay() in /home3/hysterec/public_html/pmrtest/interface/patient_file/front_payment.php:1320
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/front_payment.php on line 1320
+[26-Dec-2019 08:33:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function idSqlStatement() in /home3/hysterec/public_html/pmrtest/interface/patient_file/front_payment.php:279
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/front_payment.php on line 279
+[26-Dec-2019 08:36:32 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/interface/patient_file/front_payment.php on line 191
+[26-Dec-2019 08:36:32 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/interface/patient_file/front_payment.php on line 191

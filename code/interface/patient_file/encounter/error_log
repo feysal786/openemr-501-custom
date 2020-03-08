@@ -1,0 +1,211 @@
+[18-Dec-2019 11:15:40 UTC] PHP Warning:  include_once(/home3/hysterec/public_html/pmrtest/interface/forms/DEM/view.php): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/view_form.php on line 25
+[18-Dec-2019 11:15:40 UTC] PHP Warning:  include_once(): Failed opening '/home3/hysterec/public_html/pmrtest/interface/forms/DEM/view.php' for inclusion (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/view_form.php on line 25
+[21-Dec-2019 18:22:26 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[21-Dec-2019 18:24:19 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[23-Dec-2019 15:08:11 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[23-Dec-2019 15:44:30 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[24-Dec-2019 09:26:56 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[24-Dec-2019 09:27:08 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[24-Dec-2019 09:37:59 UTC] PHP Warning:  include_once(/home3/hysterec/public_html/pmrtest/interface/forms/fee_sheet/new.php): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/load_form.php on line 28
+[24-Dec-2019 09:37:59 UTC] PHP Warning:  include_once(): Failed opening '/home3/hysterec/public_html/pmrtest/interface/forms/fee_sheet/new.php' for inclusion (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/load_form.php on line 28
+[24-Dec-2019 09:38:36 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[24-Dec-2019 09:38:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getBillingByEncounter() in /home3/hysterec/public_html/pmrtest/interface/forms/fee_sheet/new.php:542
+Stack trace:
+#0 /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/load_form.php(28): include_once()
+#1 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/forms/fee_sheet/new.php on line 542
+[24-Dec-2019 09:39:24 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[24-Dec-2019 09:39:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getBillingByEncounter() in /home3/hysterec/public_html/pmrtest/interface/forms/fee_sheet/new.php:542
+Stack trace:
+#0 /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/load_form.php(28): include_once()
+#1 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/forms/fee_sheet/new.php on line 542
+[24-Dec-2019 09:40:24 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[24-Dec-2019 09:45:46 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[24-Dec-2019 09:45:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getBillingByEncounter() in /home3/hysterec/public_html/pmrtest/interface/forms/fee_sheet/new.php:542
+Stack trace:
+#0 /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/load_form.php(28): include_once()
+#1 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/forms/fee_sheet/new.php on line 542
+[24-Dec-2019 09:46:01 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[24-Dec-2019 09:46:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getBillingByEncounter() in /home3/hysterec/public_html/pmrtest/interface/forms/fee_sheet/new.php:542
+Stack trace:
+#0 /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/load_form.php(28): include_once()
+#1 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/forms/fee_sheet/new.php on line 542
+[24-Dec-2019 09:47:54 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[24-Dec-2019 10:00:09 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[24-Dec-2019 10:04:59 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[24-Dec-2019 10:12:02 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[24-Dec-2019 10:13:18 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[24-Dec-2019 10:14:52 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[26-Dec-2019 05:29:56 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/patient.inc on line 1499
+[26-Dec-2019 05:29:56 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/patient.inc on line 1501
+[26-Dec-2019 05:30:52 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/patient.inc on line 1499
+[26-Dec-2019 05:30:52 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/patient.inc on line 1501
+[26-Dec-2019 06:27:58 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[26-Dec-2019 06:54:25 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/patient.inc on line 1499
+[26-Dec-2019 06:54:25 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/patient.inc on line 1501
+[26-Dec-2019 06:56:32 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/patient.inc on line 1499
+[26-Dec-2019 06:56:32 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/patient.inc on line 1501
+[26-Dec-2019 06:56:33 UTC] PHP Warning:  include_once(/home3/hysterec/public_html/pmrtest/library/dynarch_calendar_en.inc.php): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/sites/default/documents/smarty/main/%%3F^3F3^3F3301D8%%general_new.html.php on line 17
+[26-Dec-2019 06:56:33 UTC] PHP Warning:  include_once(): Failed opening '/home3/hysterec/public_html/pmrtest/library/dynarch_calendar_en.inc.php' for inclusion (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/sites/default/documents/smarty/main/%%3F^3F3^3F3301D8%%general_new.html.php on line 17
+[26-Dec-2019 06:58:02 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/patient.inc on line 1499
+[26-Dec-2019 06:58:02 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/patient.inc on line 1501
+[26-Dec-2019 06:58:02 UTC] PHP Warning:  include_once(/home3/hysterec/public_html/pmrtest/library/dynarch_calendar_en.inc.php): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/sites/default/documents/smarty/main/%%3F^3F3^3F3301D8%%general_new.html.php on line 17
+[26-Dec-2019 06:58:02 UTC] PHP Warning:  include_once(): Failed opening '/home3/hysterec/public_html/pmrtest/library/dynarch_calendar_en.inc.php' for inclusion (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/sites/default/documents/smarty/main/%%3F^3F3^3F3301D8%%general_new.html.php on line 17
+[26-Dec-2019 07:07:29 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[26-Dec-2019 07:07:29 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/patient.inc on line 1499
+[26-Dec-2019 07:07:29 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/patient.inc on line 1501
+[26-Dec-2019 07:07:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/hysterec/public_html/pmrtest/interface/forms/eye_mag/php/eye_mag_functions.php on line 3000
+[26-Dec-2019 07:07:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/hysterec/public_html/pmrtest/interface/forms/eye_mag/php/eye_mag_functions.php on line 3000
+[26-Dec-2019 07:07:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/hysterec/public_html/pmrtest/interface/forms/eye_mag/php/eye_mag_functions.php on line 3000
+[26-Dec-2019 07:13:44 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/interface/forms/requisition/new.php on line 27
+[26-Dec-2019 07:54:19 UTC] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[26-Dec-2019 16:06:48 Asia/Karachi] PHP Warning:  include_once(/home3/hysterec/public_html/pmrtest/interface/forms/DEM/view.php): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/view_form.php on line 25
+[26-Dec-2019 16:06:48 Asia/Karachi] PHP Warning:  include_once(): Failed opening '/home3/hysterec/public_html/pmrtest/interface/forms/DEM/view.php' for inclusion (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/view_form.php on line 25
+[26-Dec-2019 17:59:05 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[26-Dec-2019 22:22:08 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[26-Dec-2019 22:25:53 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:25:53 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:28:11 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:28:11 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:28:12 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:28:12 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:28:25 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:28:25 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:28:26 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:28:26 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:28:57 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:28:57 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:28:59 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:28:59 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:35:07 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/superbill_custom_full.php on line 197
+[26-Dec-2019 22:36:49 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:36:49 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:36:50 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:36:50 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:37:03 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:37:03 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:37:14 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:37:14 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:37:21 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:37:21 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:37:22 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:37:22 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:37:34 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:37:34 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:39:40 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:39:40 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:39:41 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:39:41 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:41:19 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/superbill_custom_full.php on line 197
+[26-Dec-2019 22:44:12 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:44:12 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:44:13 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:44:13 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:44:36 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:44:36 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:44:37 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:44:37 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:48:52 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:48:52 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:48:53 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:48:53 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:49:09 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:49:09 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 22:51:02 Asia/Karachi] OpenEMR CSRF token authentication error
+[26-Dec-2019 22:51:07 Asia/Karachi] OpenEMR CSRF token authentication error
+[26-Dec-2019 22:51:13 Asia/Karachi] OpenEMR CSRF token authentication error
+[26-Dec-2019 22:56:57 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[26-Dec-2019 22:58:07 Asia/Karachi] OpenEMR CSRF token authentication error
+[26-Dec-2019 22:58:14 Asia/Karachi] OpenEMR CSRF token authentication error
+[26-Dec-2019 22:58:17 Asia/Karachi] OpenEMR CSRF token authentication error
+[26-Dec-2019 23:00:23 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 23:00:23 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 23:00:24 Asia/Karachi] PHP Warning:  require_once(/home3/hysterec/public_html/pmrtest/library/billing.inc): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 23:00:24 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '/home3/hysterec/public_html/pmrtest/library/billing.inc' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 8
+[26-Dec-2019 23:05:16 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function strip_escape_custom() in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php:67
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 67
+[26-Dec-2019 23:09:37 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function strip_escape_custom() in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php:67
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 67
+[26-Dec-2019 23:09:58 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function strip_escape_custom() in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php:67
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 67
+[26-Dec-2019 23:22:04 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function strip_escape_custom() in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php:67
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 67
+[26-Dec-2019 23:22:04 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function strip_escape_custom() in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php:67
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 67
+[26-Dec-2019 23:26:23 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function strip_escape_custom() in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php:67
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 67
+[27-Dec-2019 22:51:17 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function strip_escape_custom() in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php:67
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 67
+[27-Dec-2019 22:51:21 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function strip_escape_custom() in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php:67
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 67
+[27-Dec-2019 22:51:24 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function strip_escape_custom() in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php:67
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 67
+[27-Dec-2019 22:51:46 Asia/Karachi] OpenEMR CSRF token authentication error
+[27-Dec-2019 22:52:06 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function strip_escape_custom() in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php:67
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 67
+[27-Dec-2019 22:52:10 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function strip_escape_custom() in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php:67
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 67
+[27-Dec-2019 22:52:18 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function strip_escape_custom() in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php:67
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 67
+[27-Dec-2019 22:59:18 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function strip_escape_custom() in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php:67
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 67
+[27-Dec-2019 22:59:23 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function strip_escape_custom() in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php:67
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 67
+[27-Dec-2019 23:00:28 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function strip_escape_custom() in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php:67
+Stack trace:
+#0 {main}
+  thrown in /home3/hysterec/public_html/pmrtest/interface/patient_file/encounter/diagnosis.php on line 67
+[28-Dec-2019 09:29:38 Asia/Karachi] OpenEMR CSRF token authentication error
+[28-Dec-2019 09:54:31 Asia/Karachi] OpenEMR CSRF token authentication error
+[28-Dec-2019 09:59:44 Asia/Karachi] OpenEMR CSRF token authentication error
+[28-Dec-2019 12:00:30 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:01:34 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:06:49 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:09:36 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:10:43 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:11:31 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:12:36 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:14:11 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:15:13 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:20:31 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:28:21 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:29:58 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:30:21 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:33:38 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:33:44 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:35:29 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:38:18 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:40:35 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[28-Dec-2019 12:43:00 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168
+[01-Jan-2020 22:53:49 Asia/Karachi] PHP Warning:  A non-numeric value encountered in /home3/hysterec/public_html/pmrtest/library/FeeSheet.class.php on line 168

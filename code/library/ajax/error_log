@@ -1,0 +1,39 @@
+[24-Dec-2019 04:47:13 UTC] OpenEMR CSRF token authentication error
+[24-Dec-2019 04:47:15 UTC] OpenEMR CSRF token authentication error
+[24-Dec-2019 04:49:19 UTC] OpenEMR CSRF token authentication error
+[24-Dec-2019 04:50:22 UTC] OpenEMR CSRF token authentication error
+[24-Dec-2019 05:43:54 UTC] OpenEMR CSRF token authentication error
+[24-Dec-2019 05:43:54 UTC] OpenEMR CSRF token authentication error
+[24-Dec-2019 05:43:56 UTC] OpenEMR CSRF token authentication error
+[24-Dec-2019 05:43:57 UTC] OpenEMR CSRF token authentication error
+[24-Dec-2019 05:43:59 UTC] OpenEMR CSRF token authentication error
+[24-Dec-2019 05:44:02 UTC] OpenEMR CSRF token authentication error
+[24-Dec-2019 05:44:05 UTC] OpenEMR CSRF token authentication error
+[24-Dec-2019 05:44:07 UTC] OpenEMR CSRF token authentication error
+[24-Dec-2019 05:44:08 UTC] OpenEMR CSRF token authentication error
+[24-Dec-2019 05:44:10 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:21:41 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:21:42 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:21:45 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:21:46 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:21:48 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:21:48 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:21:49 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:21:49 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:27:16 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:27:16 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:27:18 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:27:19 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:27:20 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:27:21 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:27:22 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:27:23 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:27:24 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 06:27:25 UTC] OpenEMR CSRF token authentication error
+[26-Dec-2019 18:27:27 UTC] PHP Warning:  require(/home3/hysterec/public_html/pmrtest/vendor/composer/../../library/formatting.inc.php): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/vendor/composer/autoload_real.php on line 70
+[26-Dec-2019 18:27:27 UTC] PHP Warning:  require(/home3/hysterec/public_html/pmrtest/vendor/composer/../../library/formatting.inc.php): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/vendor/composer/autoload_real.php on line 70
+[26-Dec-2019 18:27:27 UTC] PHP Fatal error:  require(): Failed opening required '/home3/hysterec/public_html/pmrtest/vendor/composer/../../library/formatting.inc.php' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/vendor/composer/autoload_real.php on line 70
+[26-Dec-2019 18:27:27 UTC] PHP Warning:  require(/home3/hysterec/public_html/pmrtest/vendor/composer/../../library/formatting.inc.php): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/vendor/composer/autoload_real.php on line 70
+[26-Dec-2019 18:27:27 UTC] PHP Warning:  require(/home3/hysterec/public_html/pmrtest/vendor/composer/../../library/formatting.inc.php): failed to open stream: No such file or directory in /home3/hysterec/public_html/pmrtest/vendor/composer/autoload_real.php on line 70
+[26-Dec-2019 18:27:27 UTC] PHP Fatal error:  require(): Failed opening required '/home3/hysterec/public_html/pmrtest/vendor/composer/../../library/formatting.inc.php' (include_path='/home3/hysterec/public_html/pmrtest/vendor/pear/archive_tar:/home3/hysterec/public_html/pmrtest/vendor/pear/console_getopt:/home3/hysterec/public_html/pmrtest/vendor/pear/pear-core-minimal/src:/home3/hysterec/public_html/pmrtest/vendor/pear/pear_exception:.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/hysterec/public_html/pmrtest/vendor/composer/autoload_real.php on line 70
+[29-Dec-2019 22:26:07 Asia/Karachi] OpenEMR CSRF token authentication error
